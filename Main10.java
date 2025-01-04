@@ -19,7 +19,7 @@ public class Main10 {
     }
 }
 
-class Customer {
+class Customer extends Main10 {
     private int id;
     private int balance;
     private String phoneNumber;
