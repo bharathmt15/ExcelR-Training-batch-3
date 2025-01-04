@@ -4,9 +4,9 @@ public class Main9 {
 
     public static void main(String[] args) {
         Main9 main = new Main9();
-        int hardcodedBalance = 1000;
-        main.userdetails(1, hardcodedBalance, "1234567890");
-        main.display(1, hardcodedBalance, "1234567890");
+        int Balance = 1000;
+        main.userdetails(1, Balance, "1234567890");
+        main.display(1, Balance, "1234567890");
     }
 
     void userdetails(int id, int balance, String ph_no) {
