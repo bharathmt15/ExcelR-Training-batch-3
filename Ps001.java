@@ -31,6 +31,19 @@ class Employee {
         this.lastname = lastname;
     }
 
+    class PartTimeEmployee extends Employee {
+        private double hoursworked;
+        private double amountPerHour;
+
+    PartTimeEmployee(){
+        public PartTimeEmployee(int id , String firstname , String lastname , String address){
+        super(id,firstname,lastname,address);
+        this.hoursworked = 0;
+        this.amountPerHour = 0;
+}
+}
+    }
+
     public static void main(String[] args) {
         Employee emp = new Employee();
         emp.setFirstname("John");
