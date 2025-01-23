@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Lt001 {
+class Lt002 {
     public int reverse(int x) {
         int reversed = 0;
         while (x != 0) {
@@ -12,7 +12,7 @@ class Lt001 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Lt001 obj = new Lt001();
+        Lt002 obj = new Lt002();
 
         int num = sc.nextInt();
         System.out.println(obj.reverse(num));
