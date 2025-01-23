@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Demo038 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter a letter to check it's case");
+        System.out.println("Enter a letter to check it's case");
         char word = sc.next().charAt(0);
         if (Character.isUpperCase(word)) {
             System.out.println(word + " is capital letter ");
