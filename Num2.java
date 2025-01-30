@@ -17,4 +17,4 @@ public class Num2 {
 
         sc.close();
     }
-}
+};
