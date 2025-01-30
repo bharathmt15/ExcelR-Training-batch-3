@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main10 {
+public class Demo010 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class Main10 {
     }
 }
 
-class Customer extends Main10 {
+class Customer extends Demo010 {
     private int id;
     private int balance;
     private String phoneNumber;
