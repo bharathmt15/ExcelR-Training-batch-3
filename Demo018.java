@@ -10,4 +10,4 @@ public class Demo018 {
         System.out.println(minutes + " minutes is approximately " + years + " years and " + remainingDays + " days.");
         scanner.close();
     }
-}
+};
