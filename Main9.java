@@ -8,7 +8,7 @@ public class Main9 {
         main.userdetails(1, Balance, "1234567890");
         main.display(1, Balance, "1234567890");
     }
- 
+
     void userdetails(int id, int balance, String ph_no) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your id: ");
@@ -26,4 +26,4 @@ public class Main9 {
         System.out.println("Your bank balance is " + balance);
         System.out.println("Your phone number is " + ph_no);
     }
-}
+};
