@@ -6,4 +6,4 @@ public class Demo066 {
             System.out.print(i + " ");
         }
     }
-}
+};
