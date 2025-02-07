@@ -20,4 +20,4 @@ public class Demo070 {
         }
         return true;
     }
-}
+};
