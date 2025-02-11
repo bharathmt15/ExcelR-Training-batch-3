@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 public class Demo075 {
     public static void main(String[] args) {
+        S75 obj = new S75();
+        obj.s75();
+    }
+}
+
+class S75 {
+    public void s75() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("enter the array size: ");
