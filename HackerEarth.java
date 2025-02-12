@@ -11,9 +11,10 @@ public class HackerEarth {
 class Hack {
     public void s84() {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Enter size of array");
         // Read the size of the array
         int n = sc.nextInt();
+        System.out.println("Enter array elements: ");
 
         // Read the array elements
         int[] arr = new int[n];
