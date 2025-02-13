@@ -35,7 +35,7 @@ class ProductManager {
     }
 }
 
-public class Main {
+public class Test003 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ProductManager manager = new ProductManager();
