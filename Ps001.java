@@ -1,21 +1,15 @@
 class Employee {
-    private int id;
     private String firstname;
     private String lastname;
-    private String address;
 
     Employee() {
-        this.id = 0;
         this.firstname = "";
         this.lastname = "";
-        this.address = "";
     }
 
     Employee(int id, String firstname, String lastname, String address) {
-        this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
-        this.address = address;
     }
 
     public String getFullName() {
@@ -39,7 +33,7 @@ class Employee {
     }
 }
 
-class PartTimeEmployee extends Ps005 {
+class PartTimeEmployee extends Ps001 {
     private double hoursworked;
     private double amountPerHour;
 
@@ -63,7 +57,7 @@ class PartTimeEmployee extends Ps005 {
 
 public class Ps001 {
     public static void main(String[] args) {
-        Ps005 emp = new Ps005();
+        Ps005 emp = new Ps001();
         emp.setFirstname("John");
         emp.setLastname("Doe");
         System.out.println("Full Name: " + emp.getFullName());
